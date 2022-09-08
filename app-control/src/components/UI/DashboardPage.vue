@@ -191,14 +191,18 @@
           </div>
 
      </div>
+
+     <FooterBar></FooterBar>
 </template>
 
 <script>
      import PieChartPage from "./PieChartPage.vue"
+     import FooterBar from '../partials/FooterBar.vue'
 
      export default {
           components: {
                PieChartPage,
+               FooterBar
 
           }
      }

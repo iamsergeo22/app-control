@@ -78,6 +78,18 @@ export default {
 <style scoped>
 
 
+ .table {
+          margin: 4rem auto;
+          max-width: 90rem;
+          border-radius: 12px;
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+          padding: 7rem;
+          background-color: #ffffff;
+          font-family: 'Josefin Sans', sans-serif;
+          font-family: 'Jost', sans-serif;
+  }
+
+
 ul,
       .link,
       .dropdown-item {
@@ -152,4 +164,3 @@ nav {
 
 
 </style>
-./views/loginPage.vue

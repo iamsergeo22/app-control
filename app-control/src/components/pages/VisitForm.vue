@@ -121,7 +121,7 @@
 
                submitData() {
 
-                    fetch('http://127.0.0.1:8000/api/visite/', {
+                    fetch('http://127.0.0.1:8000/api/visite', {
                               method: 'POST',
                               headers: {
                                    'Content-Type': 'application/json',

@@ -60,14 +60,19 @@ export default {
 </template>
 
 <style>
+
+
 .profile {
   border: 5px solid #000000;
   border-radius: 70%;
 }
+
+
 :root {
   --sidebar-bg-color: #0F044C;
-  --sidebar-item-hover: #0F044C;
-  --sidebar-item-active: #0F044C;
+  --sidebar-item-hover: #FFCE00;
+  --sidebar-item-active: #FFCE00;
+
 }
 </style>
 
